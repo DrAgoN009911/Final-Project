@@ -152,9 +152,9 @@ namespace UnityStandardAssets.SceneUtils
 
                         if (s_Selected.mode == Mode.Trail)
                         {
-                            var emission = m_Instance.transform.GetComponent<ParticleSystem>().emission;
+                            var emission = m_Instance.transform.GetComponent<UnityEngine.ParticleSystem>().emission;
                             emission.enabled = false;
-                            m_Instance.transform.GetComponent<ParticleSystem>().Emit(1);
+                            m_Instance.transform.GetComponent<UnityEngine.ParticleSystem>().Emit(1);
                         }
 
                         m_Instance.parent = hit.transform;

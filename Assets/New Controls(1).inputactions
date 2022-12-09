@@ -1,0 +1,34 @@
+{
+    "name": "New Controls(1)",
+    "maps": [
+        {
+            "name": "Action",
+            "id": "98f6b3c8-5732-4d7c-bd88-3f03be476185",
+            "actions": [
+                {
+                    "name": "OnSpray",
+                    "type": "Button",
+                    "id": "f06660a5-6c0c-4a22-8c64-9751ba94dcde",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f661c6b9-c6d0-4202-8fd4-e1c1db82a2b3",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnSpray",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
